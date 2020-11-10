@@ -1,4 +1,5 @@
-import HomePage from '../pageobjects/home.page'
+import { HomePage } from '../pageobjects/home.page'
+const homePage = new HomePage()
 
 describe('Wikipedia home page',  () => {
     it('should redirect from en.wikipedia.org to https://en.wikipedia.org/wiki/Main_Page', () => {
@@ -10,7 +11,8 @@ describe('Wikipedia home page',  () => {
     })
 
     it('should allow the user to search and display results', () => {
-        HomePage.setSearchText("world's tallest building")
+        homePage.setSearchText("world's tallest building")
+        // This pause is here so you can observe the test state with npm run test:head
         browser.pause(10000)
     })
 })

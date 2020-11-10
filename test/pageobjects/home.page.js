@@ -1,6 +1,6 @@
 import Page from './page'
 
-class FormPage extends Page {
+class HomePage extends Page {
     // Elements go here
     get searchInput () { return $('#searchInput') }
     get searchInputButton () { return $('#searchButton') }
@@ -14,4 +14,4 @@ class FormPage extends Page {
     }
 }
 
-export default new FormPage()
+export { HomePage }
