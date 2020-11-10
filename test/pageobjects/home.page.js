@@ -1,4 +1,4 @@
-import Page from './page'
+import { Page } from './page'
 
 class HomePage extends Page {
     // Elements go here
