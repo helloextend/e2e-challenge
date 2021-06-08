@@ -4,7 +4,7 @@ The goal: give both the candidate and the Extend team a chance to interact on a 
 
 To start:
 
-If you have nvm, simply run `nvm use` or be sure you are running node 12+.
+If you have nvm, simply run `nvm use` or be sure you are running node 14+.
 
 ```
 git clone https://github.com/helloextend/e2e-challenge.git
