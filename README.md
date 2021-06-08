@@ -28,7 +28,7 @@ npm run test:head
 
 -   Find the world's second tallest building and using a custom function, verify that the feet and meter height of the building is correctly converted
 
--   Sort the table descending by year and verify the first result is the Empire State Building
+-   Sort the table ascending by year and verify the first result is the Empire State Building
 
 -   Navigate to the Empire State building's page and verify that the url is correct
 
