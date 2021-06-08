@@ -7,7 +7,7 @@ To start:
 If you have nvm, simply run `nvm use` or be sure you are running node 12+.
 
 ```
-git clone git@github.com:helloextend/e2e-challenge.git
+git clone https://github.com/helloextend/e2e-challenge.git
 npm install
 npm test
 ```
