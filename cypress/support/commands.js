@@ -10,5 +10,4 @@
 
 Cypress.Commands.add('search', (text) => {
   cy.get('#searchInput').type(text)
-  cy.get('#searchButton').click()
 })
