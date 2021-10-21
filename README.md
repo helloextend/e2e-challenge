@@ -1,4 +1,4 @@
-This project is a basic end-to-end setup using [Webdriver.io](https://webdriver.io/docs/gettingstarted.html).
+This project is a basic end-to-end setup using [Cypress](https://docs.cypress.io/).
 
 The goal: give both the candidate and the Extend team a chance to interact on a realistic, but limited (shooting for just a few hours), task. We see this as a two-way evaluation for the team and the candidate to decide if it's a good fit.
 
@@ -32,7 +32,7 @@ npm run test:head
 
 -   Navigate to the Empire State building's page and verify that the url is correct
 
--   Create a new page object and spec for the Empire State building's page
+-   Create a new spec for the Empire State building's page
 
 -   Ensure the link next to 'Preceded by' would take you to the page for the Chrysler Building
 
@@ -52,7 +52,7 @@ npm run test:head
 
 -   When your challenge code is complete, create a pull request against master
 
--   Add `m-schrepel` as a collaborator to your repo and send an email to [matthew@extend.com](mailto:matthew@extend.com) with a link to your repository
+-   Add your assigned code reviewer as a collaborator on your repo, and request a review to your pull request
 
 -   We will provide PR feedback once we've gotten the invite to collaborate and can see the PR
 
