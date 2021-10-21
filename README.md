@@ -7,7 +7,7 @@ To start:
 If you have nvm, simply run `nvm use` or be sure you are running node 14+.
 
 ```
-git clone https://github.com/helloextend/e2e-challenge.git
+Create your own repo using our template by pressing the 'Use this template' button
 npm install
 npm test
 ```
