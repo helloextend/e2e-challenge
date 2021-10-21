@@ -57,5 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
-# WebdriverIO files
-errorShots
+# Cypress files
+screenshots/
+videos/
