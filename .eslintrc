@@ -1,12 +1,12 @@
 {
   "extends": "standard",
-  "parser": "babel-eslint",
-  "rules": {
-    "indent": [2, 4]
+  "plugins": ["cypress"],
+  "env": {
+    "cypress/globals": true
   },
-  "globals": {
-    "$": true,
-    "$$": true,
-    "browser": true
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/no-async-tests": "error"
   }
 }
